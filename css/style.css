@@ -12,6 +12,8 @@ letter-spacing: 0.03em;
 }
 .top-navigation > .content {
     height: 4.375rem;
+    width: 65%;
+    margin: 0 auto;
 }
 .top-navigation .logo {
     height: 4.375rem;
@@ -33,5 +35,23 @@ letter-spacing: 0.03em;
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+section h1 h2 button {
+	position: absolute;
+	margin-top: 200px;
+}
+section img {
+	position: relative;
+	width: 100%;
+}
+button {
+	background-color: #f15a29;
+	border-style: none;
+	border-color: #f15a29;
+	hover: #f14c17;
+	border-radius: 4px;
+	color: white;
+	padding: 15px 30px;
+	font-size: 18px;
 }
 
