@@ -9,6 +9,8 @@ letter-spacing: 0.03em;
     background-color: #fff;
     position: fixed;
     width: 100%;
+    top: 0;
+    z-index: 9999;
 }
 .top-navigation > .content {
     height: 4.375rem;
@@ -36,14 +38,22 @@ letter-spacing: 0.03em;
     cursor: pointer;
     color: #333333;
 }
-section h1 h2 button {
+.header .subheader {
 	position: absolute;
-	margin-top: 200px;
+    bottom: 0;
+    font-size: 14px;
+	margin-top: 500px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
 }
-section img {
-	position: relative;
-	width: 100%;
+section {
+    width: 100%;
+    background: url(images/first-background_copy.jpg) 50% 0 no-repeat;
+    background-size: cover;
+    display: block;
 }
+
 button {
 	background-color: #f15a29;
 	border-style: none;
