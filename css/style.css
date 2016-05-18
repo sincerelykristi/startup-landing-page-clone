@@ -38,30 +38,39 @@ letter-spacing: 0.03em;
     cursor: pointer;
     color: #333333;
 }
-.header .subheader {
-	position: absolute;
-    bottom: 0;
-    font-size: 14px;
-	margin-top: 500px;
-    font-weight: lighter;
+/*Photo Header*/
+
+.header {
+	position: relative;
+    font-size: 18px;
+    margin: 332px auto 332px auto;
+    display: block;
+    width: 384px;
     text-align: center;
-    color: white;
+    font-weight: lighter;
 }
 section {
     width: 100%;
-    background: url(images/first-background_copy.jpg) 50% 0 no-repeat;
+    height: 735px;
+    background: url("../images/first-background copy.jpg") 50% 0 no-repeat;
     background-size: cover;
     display: block;
+    position: absolute;
+    color: white;
+
 }
 
 button {
 	background-color: #f15a29;
 	border-style: none;
 	border-color: #f15a29;
-	hover: #f14c17;
 	border-radius: 4px;
 	color: white;
 	padding: 15px 30px;
 	font-size: 18px;
+}
+
+button:hover {
+    background-color: #f14c17;
 }
 
