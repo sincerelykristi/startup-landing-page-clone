@@ -4,6 +4,10 @@ font-size: 16px;
 color: #838994;
 letter-spacing: 0.03em;
 }
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -11,6 +15,7 @@ letter-spacing: 0.03em;
     width: 100%;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
+    margin: 0 auto;
 }
 .top-navigation > .content {
     height: 4.375rem;
@@ -18,14 +23,14 @@ letter-spacing: 0.03em;
 .top-navigation .logo {
     height: 4.375rem;
     float: left;
-    margin-left: 300px;
+    position: fixed;
 }
 .top-navigation .links {
     float: right;
     color: #838994;
     font-size: 1.04rem;
     margin-top: 1.7rem;
-    margin-right: 300px;
+    padding: 0;
 }
 .top-navigation .links li {
     display: inline-block;
@@ -46,11 +51,12 @@ letter-spacing: 0.03em;
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+    text-align: center;
 }
 .introduction h1,
 .introduction h3 {
     color: white;
-    text-align: center;
+    /*text-align: center;*/
     font-weight: 300;
 }
 .introduction h1 {
@@ -71,8 +77,7 @@ button {
     padding: 1rem 1.5rem;
     color: white;
     font-size: 1.125rem;
-    float: right;
-    margin-right: 762px;
+ 
 }
 button:hover {
     background-color: #d9400e;
@@ -126,6 +131,9 @@ button:hover {
     border-top: 1px solid #eaebec;
     margin: 1.313rem 0;
 }
+.icons {
+    padding: 0;
+}
 .social .icons > li {
     border-radius: 1.25rem;
     width: 2.5rem;
@@ -154,6 +162,20 @@ button:hover {
     font-weight: 300;
     color: #838994;
 }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 
 
